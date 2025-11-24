@@ -7,7 +7,7 @@ if(inputAge === null || inputAge === "") {
 } else {
   const age = Number(inputAge);
 
-  if(age === null || age <= 0) {
+  if(isNaN(age) || age <= 0) {
     alert('Вік не коректний');
   } else if (age < 18) {
     const withAdult = confirm('Вам менше 18. Чи є з вами дорослий, який дозволяє перегляд?');
