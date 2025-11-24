@@ -1,6 +1,6 @@
 'use strict';
 
-const inputAge = prompt('Введить Ваш вік');
+const inputAge = prompt('Введіть Ваш вік');
 
 if(inputAge === null || inputAge === "") {
   alert('Вік не вказано');
